@@ -5,4 +5,4 @@
 - Js
 ## Libraries
 - Bootstrap v5
-- Swiper Js
+- Swiper Slider Js
