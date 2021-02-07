@@ -1,0 +1,323 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+
+}
+.header {
+    padding: 15px 0;
+}
+.navigation {
+    list-style: none;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+
+}
+.nav-phone {
+    padding: 10px 0;
+    margin: 0;
+}
+.navigation-link {
+    color: #939699;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+}
+.button {
+    background: #4592FF;
+    border-radius: 20px;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.button-icon, .button-price {
+    margin-right: 10px;
+}
+.button-icon:last-child {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.slide {
+    padding-top: 90px;
+    padding-bottom: 110px;
+    min-height: 568px;
+}
+.slide-1 {
+    background: #B4D1E0 url(../img/Image-slide.png) no-repeat top right 35%;
+}
+.label {
+    background: #3DC47E;
+    border-radius: 3px;
+    padding: 5px 12px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #fff;
+}
+.slide-title {
+    color: #262D33;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 70px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.slide-description {
+    color: #4B5157;
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 335px;
+    margin-bottom: 40px;
+}
+.slider {
+    position: relative;
+}
+.slider-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    z-index: 9;
+}
+.slider-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    
+}
+.card {
+    min-height: 370px;
+    border-radius: 10px;
+}
+
+.card-1 {
+    background: #E3E3E3 url(../img/cart-image-1.jpg) no-repeat top right;
+    background-size: cover;
+    padding-top: 60px;
+    padding-left: 46px;
+}
+.card-2 {
+    background: #000 url(../img/cart-image-2.jpg) no-repeat top right;
+    background-size: cover;
+    padding-top: 60px;
+    padding-left: 46px;
+}
+.card-3 {
+    padding-top: 35px;
+    background: #CCD5E6 url(../img/cart-image-3.png) no-repeat top right 85px;
+    background-size: contain;
+    padding-top: 60px;
+    padding-left: 46px;
+}
+.card-4 {
+    padding-top: 35px;
+    background: #FF4F52 url(../img/cart-image-4.png) no-repeat top right;
+    background-size: cover;
+    padding-left: 25px;
+    
+}
+.card-title {
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    line-height: 30px;
+    color: #262D33;
+    max-width: 220px;
+    margin: 0;
+}
+.card-description {
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4B5157;
+    max-width: 176px;
+    margin-bottom: 25px;
+}
+.card-light {
+    color: #fff;
+}
+.small {
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.large {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: bold;
+    max-width: 419px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.large-text {
+    max-width: 320px;
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+.small-text {
+    color: #FFC4C9;
+    margin-bottom: 15px;
+}
+.price {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+}
+.text {
+    color: #262D33;
+    font-family: 'Roboto Slab',
+    serif;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+}
+.more {
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px;
+}
+.goods-card {
+    position: relative;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 35px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.goods-label {
+    position: absolute;
+    left: 18px;
+    top: 18px;
+    padding: 5px 12px;
+    background: #3DC47E;
+    border-radius: 3px;
+    color: #fff;
+}
+.goods-title {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-family: Roboto Slab;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    color: #262D33;
+}
+.goods-descrition {
+    margin-bottom: 20px;
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4B5157;
+}
+.goods-price {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #262D33;
+}
+.footer {
+    background: #8F79D4;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+.footer-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-menu-item:not(:last-child) {
+    margin-right: 40px;
+}
+.footer-menu-link {
+    text-decoration: none;
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+}
+.footer-title {
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 20px;
+    margin-right: 25px;
+    color: #E7D9FF;
+}
+.footer-title-link {
+    margin-right: 15px;
+}
+.footer-text {
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 20px;
+    color: #E7D9FF;
+}
+.footer-line {
+    opacity: 0.5;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.social-img {
+    margin-right: 25px;
+}
+.top-link {
+    text-decoration: none;
+}
+.top-link-title {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    margin-right: 15px;
+}
+
+@media (max-width: 1200px) {
+    .slide-1 {
+        background-size: cover;
+    }
+    .card-3 {
+        background-position: top right;
+        background-size: cover;
+    }
+}
+@media (max-width: 992px) {
+   .large {
+       font-size: 25px;
+       line-height: 35px;
+   }
+   .card-4 {
+       background-size: contain;
+   }
+
+}
+
+@media (max-width: 576px) {
+    .slide-title {
+        font-size: 36px;
+        
+    }
+    .card {
+        background-position: top left;
+    }
+    .card-4 {
+        background-position: top right;
+    }
+}
